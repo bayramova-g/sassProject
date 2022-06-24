@@ -2,161 +2,415 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- <link rel="stylesheet" href="./assets/css/style.min.css"> -->
-    <title>gourmet ou catering</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link rel="stylesheet" href="./assets/css/style.min.css"> -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <title>Simbrella</title>
 </head>
 
 <body>
+  <header class="header" id="header">
+    <nav class="header__nav">
+      <a href="index.html" class="header__nav__logo"></a>
+      <ul class="header__nav__link-list">
+        <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">What we
+            do</a> </li>
+        <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">Our
+            products</a> </li>
+        <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">Who we
+            are</a> </li>
+        <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">Jobs</a>
+        </li>
+        <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">News</a>
+        </li>
+        <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">Contacts</a>
+        </li>
+        <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">Investors</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <header class="header">
-        <nav class="header__nav">
+  <!-- main start -->
 
-            <a href="#" class="header__nav__logo">Gourmet ou catering</a>
-            <ul class="header__nav__link-list">
+  <main class="main">
+    <div class="main__bg">
 
-                <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link"
-                        href="">About</a> </li>
-                <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link" href="">Menu</a>
-                </li>
-                <li class="header__nav__link-list__item"> <a class="header__nav__link-list__item__link"
-                        href="">Contact</a> </li>
-            </ul>
+      <div class="main__bg__image">
 
-        </nav>
+        <img class="main__bg__image__img" src="./assets/img/video_bg_0﹖v=3.jpg" alt="">
 
-    </header>
+        <div id="allcontent" style="display: none;" class="main__bg__image__info">
+          <h1 class="main__bg__image__info__h1"> First Company in the world to launch Mobile Fintech Services
+          </h1>
+          <p class="main__bg__image__info__p"> We are serving over 25 companies in 20 countries worldwide and
+            this
+            number is growing with new launches every quarter. </p>
+        </div>
+        <img class="main__bg__image__info__img" src="./assets/img/mouse_icon.svg">
+        <a class="main__bg__image__info__scroll-down" href="#whatwedo">scroll to discover us! </a>
 
 
-    <!-- main start -->
-    <main class="main">
-        <div class="main__bg">
-            <h1 class="main__bg__h1">Le Catering</h1>
-            <img src="./assets/image/hamburger.jpeg" alt="#" class="main__bg__img">
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- main end -->
+
+
+  <!-- what we do start -->
+
+  <section id="whatwedo" class="whatwedo">
+
+    <div class="whatwedo__container">
+
+      <div class="whatwedo__container__head">
+
+        <h2 class="whatwedo__container__head__h2">What we do</h2>
+
+        <div class="whatwedo__container__head__link">
+
+          <a class="whatwedo__container__head__link__a" href="#readme"> Read
+            more</a>
+          <img class="whatwedo__container__head__link__a__img" src="./assets/img/link_orange_icon.svg" alt="#">
         </div>
 
-    </main>
-
-    <!-- main end -->
+      </div>
 
 
+      <div class="whatwedo__container__dothree">
 
-    <!-- about start -->
+        <article class="whatwedo__container__dothree__article">
+          <img class="whatwedo__container__dothree__article__img" src="./assets/img/1.svg" alt="#">
 
-    <section class="about">
+          <h3 class="whatwedo__container__dothree__article__h3">AI & ML based Scoring</h3>
+          <p class="whatwedo__container__dothree__article__p">We determine the credit-worthiness of each
+            client, using behavioral scoring model.</p>
+          <a href="#basedscoring" class="full_link"></a>
+        </article>
+        <article class="whatwedo__container__dothree__article">
+          <img class="whatwedo__container__dothree__article__img" src="./assets/img/we_icon_2.svg" alt="#">
+
+          <h3 class="whatwedo__container__dothree__article__h3">Micro-lending technology</h3>
+          <p class="whatwedo__container__dothree__article__p">We deliver microlending solution which includes
+            processing, disbursement, repayment, recovery and management of loans.</p>
+          <a href="#basedscoring" class="full_link"></a>
+        </article>
+        <article class="whatwedo__container__dothree__article">
+          <img class="whatwedo__container__dothree__article__img" src="./assets/img/we_icon_3.svg" alt="#">
+
+          <h3 class="whatwedo__container__dothree__article__h3">Big data engine</h3>
+          <p class="whatwedo__container__dothree__article__p">We use latest advancements in Artificial
+            Intelligence and Machine Learning to maximize our value proposition.</p>
+          <a href="#basedscoring" class="whatwedo__container__dothree__article__link"></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- what we do end -->
+
+  <!-- our products start -->
+
+  <!--
+
+ <div class="ourproducts">
+        <div class="ourproducts__div">
+            <h2 class="ourproducts__div__h2">Our products</h2>
+            <div class="ourproducts__div__products-round ourproducts__div__show-me">
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item1">
+
+                    <a class="ourproducts__div__products-round__item-block__a" href="javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span">Daas</span></a>
+                </div>
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item2">
+
+                    <a class="ourproducts__div__products-round__item-block__a href=" javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span1">MFI micro
+                            loan</span></a>
+                </div>
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item3">
+
+                    <a class="ourproducts__div__products-round__item-block__a href=" javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span">Bank micro loan</span></a>
+                </div>
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item4">
+
+                    <a class="ourproducts__div__products-round__item-block__a href=" javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span4">Mobile wallet micro
+                            loan</span></a>
+                </div>
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item5">
+
+                    <a class="ourproducts__div__products-round__item-block__a href=" javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span">BNPL</span></a>
+                </div>
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item6">
+
+                    <a class="ourproducts__div__products-round__item-block__a href=" javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span3">Airtime
+                            credit</span></a>
+                </div>
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item7">
+
+                    <a class="ourproducts__div__products-round__item-block__a href=" javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span">Scoring engine</span></a>
+                </div>
+                <div class="ourproducts__div__products-round__item-block ourproducts__div__products-round__item8">
+
+                    <a class="ourproducts__div__products-round__item-block__a href=" javascript:void(0);"><span
+                            class="ourproducts__div__products-round__item-block__a__span2">Safe data
+                            monetization gateway</span></a>
+                </div>
+                <div class="ourproducts__div__info_center">
+                    <p>Data as a Service (DaaS) is a complex approach aimed at monetization of MNO’s Big Data relying on
+                        advanced techniques in analyzing telco usage. A user-friendly and fast ecosystem is built for
+                        various providers of goods and services be equipped with access to valuable data for making
+                        lending
+                        decisions.</p>
+                    <p>Using variety of accessible data, decision is made on eligibility of any given individual
+                        independent
+                        on whether they have or not credit history. Complex product system is built with scoring engine
+                        and
+                        loan management platform as core components.</p>
+                    <p>Enabling embedded finance to all credit-invisible customer segments of a bank – via using
+                        sophisticated scoring engine and state-of-the-art loan management platform. Our solution greatly
+                        reduces cost of the lending process as well as efficiently managing risks of the same.</p>
+                    <p>Enabling embedded finance to all customer segments of a mobile wallet passing through
+                        creditworthiness assessment based on AI/ML driven scoring algorithms. Loan servicing module
+                        presents
+                        as well.</p>
+                    <p>Buy Now Pay Later solution technically integrated into any ecosystem featuring e-commerce,
+                        marketplace etc. for transparent access allowing the end-users to take advantage of making
+                        installment-based purchases.</p>
+                    <p>Lending an airtime to MNO customers on the premise that they will pay back with a bit of premium.
+                        Built-in machine learning system provides for maximum profitability of the business model.</p>
+                    <p>While scoring engine and set of algorithms are core of all Simbrella’s solutions, it is possible
+                        to
+                        implement scoring as a standalone component should such a need arise at any of our potential
+                        clients
+                        – banks, MNO’s, mobile wallets etc.</p>
+                    <p>Worried about protection of sensitive data? We created data anonymizer solution for this
+                        particular
+                        purpose – it’ll help to carry on all scoring and lending activities in any customer base without
+                        disclosing actual customer information.</p>
+                </div>
+            </div>
 
 
-
-        <div class="about__image">
-            <img src="./assets/image/tablesetting2.jpeg" alt="#" class="about__image__img">
         </div>
 
-        <div class="about__content">
-            <h1 class="about__content__h1">About Catering</h1>
-            <h5 class="about__content__h5">Tradition since 1889 </h5>
-            <p class="about__content__first-p">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor
-                sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur.We only use <span class="about__content__first-p__span">seasonal</span>
-                ingredients. </p>
-            <p class="about__content__second-p">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt
-                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
 
+    </div>
+
+-->
+
+
+
+
+
+  <!-- our products end -->
+
+  <!-- tech powered section  start-->
+
+
+  <section class="tech show-me" style="background-image: url(./assets/img/solutions_bg.jpg);">
+
+    <div class="tech__tech-background">
+
+
+      <h2 class="tech__tech-background__h2"> Tech-Powered <br>Financial Solutions </h2>
+
+
+      <div class="tech__tech-background__list">
+
+
+        <ul class="tech__tech-background__list__ul">
+
+          <li class="tech__tech-background__list__ul__li">
+            <h3 class="tech__tech-background__list__ul__li__h3"> AI and ML based scoring engine</h3>
+          </li>
+          <li class="tech__tech-background__list__ul__li">
+            <h3 class="tech__tech-background__list__ul__li__h3"> End-to-end lending technology</h3>
+          </li>
+          <li class="tech__tech-background__list__ul__li">
+            <h3 class="tech__tech-background__list__ul__li__h3"> High-performing and secure operating
+              platform</h3>
+          </li>
+          <li class="tech__tech-background__list__ul__li">
+            <h3 class="tech__tech-background__list__ul__li__h3"> Fast and consistent decision making</h3>
+          </li>
+          <li class="tech__tech-background__list__ul__li">
+            <h3 class="tech__tech-background__list__ul__li__h3">Flexible customizable solution</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- tech powered section  end-->
+
+
+
+
+
+
+  <!-- counter start-->
+
+
+
+  <!--                             
+    <section class="counters">
+        <div class="counters__container">
+            <h2 class="counters__container__h2">Enhance your opportunities with us</h2>
+            <div class="counters__container__div">
+                <div class="counters__container__div__counter" data-target="221">  0</div>
+                <h3 class="counters__container__div__h2">Millions</h3>
+                <p class="counters__container__div____p"> END USERS SERVED GLOBALLY</p>
+            </div>
+            <div class="counters__container__div">
+                <div class="counters__container__div__counter" data-target="25"> 0</div>
+                <h3 class="counters__container__div__h2">Country</h3>
+                <p class="counters__container__div____p"> OUR GLOBAL PRESENCE</p>
+            </div>
+            <div class="counters__container__div">
+                <div class="counters__container__div__counter" data-target="3"> 0</div>
+                <h3 class="counters__container__div__h2">Million</h3>
+                <p class="counters__container__div____p"> TRANSACTIONS PER DAY</p>
+            </div>
+        </div>
     </section>
-
-    <!-- about start -->
-
-
-    <!-- our menu start -->
-
-    <section class="ourmenu">
-
-        <div class="ourmenu__content">
-            <h1 class="ourmenu__content__h1">Our Menu</h1>
-            <h4 class="ourmenu__content__h4">Bread Basket</h4>
-            <p class="ourmenu__content__first-p">Assortment of fresh baked fruit breads and muffins 5.50 </p>
-
-            <h4 class="ourmenu__content__h4">Honey Almond Granola with Fruits</h4>
-            <p class="ourmenu__content__first-p">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00
-            </p>
-
-            <h4 class="ourmenu__content__h4">Belgian Waffle</h4>
-            <p class="ourmenu__content__first-p">Vanilla flavored batter with malted flour 7.50 </p>
-
-            <h4 class="ourmenu__content__h4">Scrambled eggs</h4>
-            <p class="ourmenu__content__first-p">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
-            </p>
-
-            <h4 class="ourmenu__content__h4">Blueberry Pancakes</h4>
-            <p class="ourmenu__content__first-p">With syrup, butter and lots of berries 8.50</p>
+  -->
 
 
+  <div class="achievements-block dest-step" data-anchor="who_we_are">
+    <div class="achievements-block__div">
+      <h2 class="achievements-block__div__h2">Enhance your opportunities with us</h2>
+      <div class="achievements-block__achievements-three">
+        <article class="achievements-block__achievements-three__article">
+          <h3 class="achievements-block__achievements-three__article__h3">
+            <span class="achievements-block__achievements-three__article__h3__time-me" id="counter" data-target="220">
 
+            </span> Million </h3>
+          <p class="achievements-block__achievements-three__article__p">
+          <p>END USERS SERVED GLOBALLY</p>
+          </p>
+        </article>
+        <article class="achievements-block__achievements-three__article">
+          <h3 class="achievements-block__achievements-three__article__h3">
+            <span class="achievements-block__achievements-three__article__h3__time-me" id="counter" data-target="25">
+
+            </span>Countries </h3>
+          <p>
+          <p>OUR GLOBAL PRESENCE</p>
+          </p>
+        </article>
+        <article class="achievements-block__achievements-three__article">
+          <h3 class="achievements-block__achievements-three__article__h3">
+            <span class="achievements-block__achievements-three__article__h3__time-me" id="counter" data-target="3">
+
+            </span> Million </h3>
+          <p>
+          <p>TRANSACTIONS PER DAY</p>
+          </p>
+        </article>
+      </div>
+    </div>
+  </div>
+  <!-- ACHIEVEMETS END -->
+
+
+
+
+
+  <!-- INDEX WORLD BEGIN -->
+  <div class="index-world">
+    <div class="index-world__div">
+      <div class="index-world__div__map-svg">
+
+        <div class="index-world__div__inner"></div>
+        <div class="index-world__div__map-svg__flying-country">
+          <img class="index-world__div__map-svg__flying-country" src="./assets/img/map_image.png" alt="">
+          <span> </span>
         </div>
-        <div class="ourmenu__image">
-            <img src="./assets/image/tablesetting.jpeg" alt="#" class="ourmenu__image__img">
+      </div>
+      <div class="index-world__div__inner">
+        <h2 class="index-world__div__inner__h2">Simbrella Geography</h2>
+      </div>
+      <div class="index-world__div__inner__operators_info">
+        <div class="index-world__div__inner__operators_info__div">
+          <p class="index-world__div__inner__operators_info__div__orange operators__p"><span>Current operations</span></p>
+          <p class="index-world__div__inner__operators_info__div__blue operators__p hide_me"><span>Projects pipeline</span></p>
+          <p class="index-world__div__inner__operators_info__div__both operators__p hide_me"><span>Both </span></p>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
 
-    <!-- our menu end -->
-
-
-
-    <section class="section">
-
-        <div class="section__contact">
-
-            <h1 class="section__contact__h1">Contact</h1>
-
-            <p class="section__contact__first-p">We offer full-service catering for any event, large or small. We
-                understand your
-                needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do
-                not
-                hesitate to contact us. </p>
-
-            <p class="section__contact__second-p"><b> Catering Service, 42nd Living St, 43043 New York, NY</b></p>
-
-            <p class="section__contact__third-p">You can also contact us by phone 00553123-2323 or email
-                catering@catering.com,
-                or you can send
-                us a message here:</p>
-
-            <form action="#" class="section__contact__form" target="_blank">
-
-                <input type="text" placeholder="Name" class="section__contact__form__input" required name="Name">
-                <input type="number" placeholder="How many people" class="section__contact__form__input" required
-                    name="People">
-
-                <input type="datetime-local" placeholder="Date and Time" class="section__contact__form__input" required
-                    name="date" value="2020-11-16T20:00">
-                <input type="text" placeholder="Message \ Special requirements" class="section__contact__form__input"
-                    required name="Message">
-                <button class="section__contact__form__button" type="submit"> SEND MESSAGE </button>
-            </form>
+  <!-- INDEX WORLD END -->
 
 
-
+    <!-- INDEX PARTNERS BEGIN -->
+    <div class="index-partners">
+      <div class="index-partners__div">
+        <h2 class="index-partners__div__h2">Our clients</h2>
+        <div class="index-partners__div__partners_grid">
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure >
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="index-partners__div__partners_grid__figure">
+            <img class="index-partners__div__partners_grid__figure__img" src="" alt="">
+          </figure>
+          <figure class="no_border">
+            <div class="link">
+              <span> over 15 more clients</span>
+            </div>
+          </figure>
         </div>
-
-    </section>
-
-
-
-
-    <!-- footer start -->
-    <footer class="footer">
-        <p class="footer__p">Powered by w3.css</p>
-    </footer>
-    <!-- footer start -->
+      </div>
+    </div>
+    <!-- INDEX PARTNERS END -->
 
 
 
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
